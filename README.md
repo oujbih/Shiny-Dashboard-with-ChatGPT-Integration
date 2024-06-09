@@ -29,7 +29,7 @@ install.packages(c("shiny", "shinydashboard", "shinydashboardPlus", "tidyverse",
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/shiny-chatgpt-dashboard.git
+git clone https://github.com/oujbih/Shiny-Dashboard-with-ChatGPT-Integration.git
 ```
 Running the Application
 
