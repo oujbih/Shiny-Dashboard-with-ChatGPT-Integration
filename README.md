@@ -62,10 +62,8 @@ OPENAI_API_KEY=your-api-key-here
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-Acknowledgements
+## Acknowledgements
 
     OpenAI for providing the ChatGPT API.
     RStudio for the Shiny framework.
@@ -75,5 +73,5 @@ Acknowledgements
 
 For any questions or suggestions, please open an issue on the GitHub repository or contact the project maintainer:
 
-    Your Name: abderahimoujbih@gmail.com
+    Email : abderahimoujbih@gmail.com
     GitHub: Abderrahim Oujbih
