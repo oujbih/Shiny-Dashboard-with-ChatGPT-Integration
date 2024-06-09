@@ -6,3 +6,4 @@ library(tidyverse)
 library(plotly)
 library(glue)
 library(httr2) # used for sending requests
+library(bslib)

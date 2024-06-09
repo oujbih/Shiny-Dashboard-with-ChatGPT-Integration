@@ -2,6 +2,9 @@
 
 This Shiny application integrates ChatGPT to dynamically generate ggplot2 visualizations based on uploaded CSV data. It allows users to interact with ChatGPT for generating custom plots and chat with ChatGPT for various tasks.
 
+![](images/image1.png)
+
+
 ## Features
 
 - **CSV Upload and Visualization**: Upload CSV files and visualize data in table format.
@@ -20,7 +23,7 @@ This Shiny application integrates ChatGPT to dynamically generate ggplot2 visual
 The following R packages are required:
   
 ```r
-install.packages(c("shiny", "shinydashboard", "shinydashboardPlus", "tidyverse", "plotly", "glue", "httr2"))
+install.packages(c("shiny", "shinydashboard", "shinydashboardPlus", "tidyverse", "plotly", "glue","bslib", "httr2"))
 ```
 
 
@@ -31,14 +34,17 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/oujbih/Shiny-Dashboard-with-ChatGPT-Integration.git
 ```
-Running the Application
+### Setting Up Your OpenAI API Key
 
-Open the project in RStudio and run the application with the following command:
+To set up your OpenAI API key in R, follow these steps:
+1. Sign up or log in to OpenAI and generate an API key [Openai platform](https://platform.openai.com/)
+2. Open your .Renviron file or create one in your home directory (~).
+3. Add the following line to the .Renviron file:
 
 ```r
-
-shiny::runApp()
+OPENAI_API_KEY=your-api-key-here
 ```
+
 ## Usage
 
     Upload CSV File: Click on the "Input (Upload)" tab and upload your CSV file.
